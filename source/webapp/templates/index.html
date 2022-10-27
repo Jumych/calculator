@@ -15,9 +15,9 @@
     {% csrf_token %}
     <div class="m-4">
         <div class="input-group mb-3 w-50">
-      <span class="input-group-text" id="firts_number">First Number</span>
+      <span class="input-group-text" id="first_number">First Number</span>
       <input type="number" class="form-control" aria-describedby="first_number"
-             aria-label="" name="firs_number">
+             aria-label="" name="first_number">
 
 </div>
     <div class="input-group mb-3 w-50">
@@ -59,8 +59,9 @@
 <input class="btn btn-primary" type="submit" value="Submit">
     </div>
 
-
 </form>
+
+ <h3 class="m-4">{{ result }}</h3>
 
 
 <!-- JavaScript Bundle with Popper -->
